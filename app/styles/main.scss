@@ -10,7 +10,8 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 body {
     // padding for navbar fixed to top
     padding-top: 70px;
-    // background: #840028;
+    padding-bottom: 70px;
+    height: 100%;
     // Upholstery pattern by Nate Eagle - http://lea.verou.me/css3patterns/#upholstery
     background:
     radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 9%, hsla(0, 100%, 20%, 0) 9%) 0 0,
@@ -28,18 +29,11 @@ body {
 }
 
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.footer {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
 /* Custom page footer */
-.footer {
-    padding-top: 19px;
+footer {
+    height: 50px;
+    padding-top: 15px;
     color: #ccc;
-    border-top: 1px solid #262626;
     background-color: hsla(0, 0%, 0%, 0.3);
 }
 
@@ -55,18 +49,4 @@ body {
         max-width: 730px;
     }
 
-    /* Remove the padding we set earlier */
-    .header,
-    .footer {
-        padding-left: 0;
-        padding-right: 0;
-    }
-    /* Space out the masthead */
-    .header {
-        margin-bottom: 30px;
-    }
-    /* Remove the bottom border on the jumbotron for visual effect */
-    .jumbotron {
-        border-bottom: 0;
-    }
 }
