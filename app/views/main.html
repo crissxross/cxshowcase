@@ -7,6 +7,26 @@
 </div>
 
 <!-- Showcase items -->
+<div class="showcase row">
+  <div ng-repeat="work in showcase" class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img data-src="holder.js/300x200" alt="...">
+      <div class="caption">
+        <h3>{{work.title}}</h3>
+        <p>{{work.description}}</p>
+        <p><a href="{{work.workUrl}}" target="_blank" class="btn btn-default" role="button">Play <span class="glyphicon glyphicon-play"></span></a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="well well-sm">
+  <p>Above is the result of using ng-repeat - but, currently, without using Bootstrap rows.</p>
+  </div>
+
+<hr>
+
+<!-- Showcase items in plain html -->
 <div class="row">
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
