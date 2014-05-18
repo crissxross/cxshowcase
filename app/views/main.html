@@ -5,12 +5,12 @@
     Playable stories, e-literature, digital art and e-poetry
   </p>
 </div>
-
+<!-- <div class="container"> -->
 <!-- Showcase items -->
 <div class="showcase row">
   <div ng-repeat="work in showcase" class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img data-src="holder.js/300x200" alt="...">
+      <img src="{{work.imageUrl}}" alt="...">
       <div class="caption">
         <h3>{{work.title}}</h3>
         <p>{{work.description}}</p>
@@ -20,6 +20,7 @@
     </div>
   </div>
 </div>
+<!-- </div> -->
 
 <div class="well well-sm">
   <h5>Plus more... <small>(in a small well)</small></h5>

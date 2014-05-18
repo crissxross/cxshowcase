@@ -10,8 +10,6 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 body {
     // padding for navbar fixed to top
     padding-top: 70px;
-    padding-bottom: 70px;
-    height: 100%;
     // Upholstery pattern by Nate Eagle - http://lea.verou.me/css3patterns/#upholstery
     background:
     radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 9%, hsla(0, 100%, 20%, 0) 9%) 0 0,
@@ -32,14 +30,14 @@ body {
 /* Custom page footer */
 footer {
     height: 50px;
-    padding-top: 15px;
+    padding-top: 30px;
     color: #ccc;
-    background-color: hsla(0, 0%, 0%, 0.3);
+    // background-color: hsla(0, 0%, 0%, 0.3);
 }
 
 .jumbotron {
     text-align: center;
-    background-color: hsla(0, 100%, 100%, 0.3)
+    background-color: hsla(0, 50%, 70%, 0.3);
 }
 
 
