@@ -1,10 +1,11 @@
 <!-- main content -->
-<div class="jumbotron">
+<!-- <div class="jumbotron">
   <h1>crissxross showcase!</h1>
   <p class="lead">
-    Playable stories, e-literature, digital art and e-poetry
+    Playable stories, e-literature, digital art &amp e-poetry by Christine Wilks
   </p>
-</div>
+</div> -->
+<div class="page-header"><h1>crissxross showcase <small>playable stories and creative works by Christine Wilks</small></h1></div>
 <!-- <div class="container"> -->
 <!-- Showcase items -->
 <div class="showcase row">
@@ -15,7 +16,7 @@
         <h3>{{work.title}}</h3>
         <p>{{work.description}}</p>
         <p>{{work.collab}} <small>{{work.tech}}, {{work.pubdate}}.</small></p>
-        <p><a href="{{work.workUrl}}" target="_blank" class="btn btn-default" role="button">Play <span class="glyphicon glyphicon-play"></span></a></p>
+        <p><a href="{{work.workUrl}}" target="_blank" class="btn btn-default" role="button">Play <span class="glyphicon glyphicon-play"></span></a> index: {{$index}}</p>
       </div>
     </div>
   </div>
