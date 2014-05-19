@@ -19,8 +19,12 @@
         <h3 class="media-heading">{{work.title}}</h3>
         <p>{{work.description}}</p>
         <p>{{work.collab}}</p>
-        <p class="text-right"><a href="{{work.workUrl}}" target="_blank" class="btn btn-default pull-left" role="button">Play <span class="glyphicon glyphicon-play"></span></a> <small>{{work.tech}}, {{work.pubdate}}</small></p>
+        <p class="text-right"><a href="{{work.workUrl}}" target="_blank" class="btn btn-default pull-left" role="button">Play <span class="glyphicon glyphicon-play"></span></a> <small>{{work.tech}}, {{work.pubdate}}</small> <button ng-click="toggle()" class="btn btn-default btn-sm">More info</button></p>
     </div>
+  </div>
+  <div ng-show="visible" class="panel-footer">
+    <p>{{work.kudos}}</p>
+    <p>{{work.moreinfo}}</p>
   </div>
   </div>
   </div>
