@@ -6,6 +6,7 @@
   </p>
 </div>
 <!-- <div class="page-header"><h1>crissxross <small>playable stories &amp creative works by Christine Wilks</small></h1></div> -->
+
 <!-- Showcase items -->
 <div ng-repeat="work in showcase" class="showcase row">
 <div class="col-md-12">
@@ -17,8 +18,8 @@
     <div class="media-body">
         <h3 class="media-heading">{{work.title}}</h3>
         <p>{{work.description}}</p>
-        <p>{{work.collab}} <small>{{work.tech}}, {{work.pubdate}}.</small></p>
-        <p><a href="{{work.workUrl}}" target="_blank" class="btn btn-default" role="button">Play <span class="glyphicon glyphicon-play"></span></a> index: {{$index}}</p>
+        <p>{{work.collab}}</p>
+        <p class="text-right"><a href="{{work.workUrl}}" target="_blank" class="btn btn-default pull-left" role="button">Play <span class="glyphicon glyphicon-play"></span></a> <small>{{work.tech}}, {{work.pubdate}}</small></p>
     </div>
   </div>
   </div>

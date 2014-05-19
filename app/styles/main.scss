@@ -10,7 +10,8 @@ $blog-link: hsl(109, 60%, 41%);
 
 $navbar-inverse-link-color: $gold;
 $jumbotron-padding: 20px;
-$jumbotron-bg: hsla(0, 50%, 70%, 0.3);
+$jumbotron-bg: hsla(0, 60%, 70%, 0.2);
+$jumbotron-color: #191919;
 
 
 /* ABOVE are my redefined sass variables that override bootstrap */
@@ -50,7 +51,6 @@ body {
 
     small { color: darken($gold, 20%); }
     // small { color: $oldgold; }
-    // small { color: $blue; }
 }
 
 /* Custom page footer */
@@ -66,7 +66,11 @@ footer a:hover { color: darken($gold, 15%); }
 
 .jumbotron {
     text-align: center;
-    // background-color: hsla(0, 50%, 70%, 0.3);
+    // text-shadow: #f88 1px 1px 1px, #C00 -1px -1px 2px;
+
+    // h1 { text-shadow: #f88 1px 1px 1px, #C00 -1px -1px 2px; }
+    // border: 3px, solid, $brand-primary;
+    // box-shadow: inset 0 0 2em #450000;
 }
 
 .media-object { max-width: 150px; }
