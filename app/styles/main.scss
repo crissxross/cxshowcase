@@ -1,3 +1,20 @@
+//$brand-primary: #d10000;
+$brand-primary: hsl(0, 100%, 41%);
+$gold: hsl(46, 100%, 60%);
+$oldgold: #9C9A10;
+$blue: hsl(203, 90%, 45%);
+// $upholstery-col: #8f0000;
+$upholstery-col: hsl(0, 100%, 28%);
+$upholstery-light: hsl(0, 100%, 70%);
+$blog-link: hsl(109, 60%, 41%);
+
+$navbar-inverse-link-color: $gold;
+$jumbotron-padding: 20px;
+$jumbotron-bg: hsla(0, 50%, 70%, 0.3);
+
+
+/* ABOVE are my redefined sass variables that override bootstrap */
+
 $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
 
 @import 'bootstrap-sass-official/vendor/assets/stylesheets/bootstrap';
@@ -26,6 +43,15 @@ body {
     background-size: 100px 100px;
 }
 
+.page-header {
+    color: lighten($gold, 15%);
+    // border-bottom: 1px solid $brand-primary;
+    border-bottom: none;
+
+    small { color: darken($gold, 20%); }
+    // small { color: $oldgold; }
+    // small { color: $blue; }
+}
 
 /* Custom page footer */
 footer {
@@ -35,10 +61,15 @@ footer {
     // background-color: hsla(0, 0%, 0%, 0.3);
 }
 
+footer a { color: $gold; }
+footer a:hover { color: darken($gold, 15%); }
+
 .jumbotron {
     text-align: center;
-    background-color: hsla(0, 50%, 70%, 0.3);
+    // background-color: hsla(0, 50%, 70%, 0.3);
 }
+
+.media-object { max-width: 150px; }
 
 
 /* Responsive: Portrait tablets and up */

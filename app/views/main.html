@@ -1,27 +1,29 @@
 <!-- main content -->
-<!-- <div class="jumbotron">
-  <h1>crissxross showcase!</h1>
+<div class="jumbotron">
+  <h1>crissxross</h1>
   <p class="lead">
-    Playable stories, e-literature, digital art &amp e-poetry by Christine Wilks
+    Playable stories, digital writing &amp art by Christine Wilks
   </p>
-</div> -->
-<div class="page-header"><h1>crissxross showcase <small>playable stories and creative works by Christine Wilks</small></h1></div>
-<!-- <div class="container"> -->
+</div>
+<!-- <div class="page-header"><h1>crissxross <small>playable stories &amp creative works by Christine Wilks</small></h1></div> -->
 <!-- Showcase items -->
-<div class="showcase row">
-  <div ng-repeat="work in showcase" class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="{{work.imageUrl}}" alt="...">
-      <div class="caption">
-        <h3>{{work.title}}</h3>
+<div ng-repeat="work in showcase" class="showcase row">
+<div class="col-md-12">
+<div class="panel panel-default">
+  <div class="media panel-body">
+    <a class=" pull-left" href="{{work.workUrl}}">
+      <img class="media-object" src="{{work.imageUrl}}" alt="...">
+    </a>
+    <div class="media-body">
+        <h3 class="media-heading">{{work.title}}</h3>
         <p>{{work.description}}</p>
         <p>{{work.collab}} <small>{{work.tech}}, {{work.pubdate}}.</small></p>
         <p><a href="{{work.workUrl}}" target="_blank" class="btn btn-default" role="button">Play <span class="glyphicon glyphicon-play"></span></a> index: {{$index}}</p>
-      </div>
     </div>
   </div>
+  </div>
+  </div>
 </div>
-<!-- </div> -->
 
 <div class="well well-sm">
   <h5>Plus more... <small>(in a small well)</small></h5>
