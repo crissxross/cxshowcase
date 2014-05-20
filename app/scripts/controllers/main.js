@@ -7,10 +7,4 @@ angular.module('cxshowcaseApp')
     }).error(function(data) {
       // log error
     });
-
-    $scope.visible = false;
-
-    $scope.toggle = function() {
-      $scope.visible = !$scope.visible;
-    };
   });
