@@ -12,7 +12,7 @@
 <div class="col-md-12">
 <div class="panel panel-default">
   <div class="media panel-body">
-    <a class=" pull-left" href="{{work.workUrl}}">
+    <a class="pull-left" href="{{work.workUrl}}">
       <img class="media-object" src="{{work.imageUrl}}" alt="...">
     </a>
     <div class="media-body">
@@ -23,8 +23,9 @@
     </div>
   </div>
   <div ng-show="isHidden" class="panel-footer">
-    <p>{{work.kudos}}</p>
+    <p><button ng-click="isHidden = !isHidden" type="button" class="close pull-right" aria-hidden="true">&times;</button></p>
     <p>{{work.moreinfo}}</p>
+    <p><a href="{{work.moreUrl}}">{{work.linkText}}</a></p>
   </div>
   </div>
   </div>

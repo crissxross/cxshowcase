@@ -3,14 +3,15 @@
     "id": "inkubus",
     "workUrl": "http://www.dreamingmethods.com/inkubus/",
     "title": "Inkubus",
-    "description": "Inkubus is a first-person playable coming-of-age story, in media-rich 3D, about a contemporary teenage girl. She’s connected and clued in but what lurks in the deepest darkest regions beyond the screen?",
+    "description": "Inkubus is a first-person playable coming-of-age story, in media-rich 3D, about a contemporary teenage girl. She’s connected and clued-in but what lurks in the deepest darkest regions beyond the screen?",
     "imageUrl": "images/inkubus_DM2_thumb.jpg",
     "pubdate": "2014",
     "tech": "3D (Unity)",
     "collab": "Made in collaboration with Andy Campbell.",
     "publisher": "Dreaming Methods",
-    "kudos": "Exhibited at MLA 2014 & ELO Hold the Light Conference 2014",
-    "moreinfo": ""
+    "moreinfo": "Exhibited at E-Poetry 2013:'Words Unstable On The Table'; at the Modern Language Association (MLA) 2014 Convention's Pathfinders Exhibit, and at the Electronic Literature Organization (ELO) 2014 Media Arts Show.",
+    "moreUrl": "",
+    "linkText": ""
   },
   {
     "id": "revolution-of-words",
@@ -22,8 +23,9 @@
     "tech": "HTML5 & JavaScript",
     "collab": "Made in collaboration with Randy Adams (aka runran).",
     "publisher": "remixworx",
-    "kudos": "",
-    "moreinfo": ""
+    "moreinfo": "In memory of Randy Adams (1951-2014). A Revolution of Words invites the speculative reader to 'Spin the Revolution' and thus a play on words becomes a game of chance where meaning is at stake.",
+    "moreUrl": "http://runran.net/remix_runran/?p=2345",
+    "linkText": "A Revolution of Words at R3M1XW0RX"
   },
   {
     "id": "crissxross-trail-remixworx",
@@ -32,12 +34,13 @@
     "subtitle": "one remix player's scenic route through remixworx",
     "description": "Conceived as a poetic interactive infographic with lots of multimedia animated content, this 'scenic route' presents a sample trail of 33 remixes out of over 100 that I've created since joining remixworx, a collaborative online creative project, in Jan 2007.",
     "imageUrl": "images/janus.jpg",
-    "pubdate": "2012" ,
-    "tech": "HTML & Flash (& Quicktime video)",
+    "pubdate": "2012",
+    "tech": "HTML, Flash & Quicktime video",
     "collab": "",
     "publisher": "",
-    "kudos": "I gave live presentations of this crissxross remix trail at the ELMCIP conference on Remediating the Social (2012) and the HERA Conference (2013).",
-    "moreinfo": ""
+    "moreinfo": "I gave live presentations of my crissxross remix trail at the ELMCIP conference on Remediating the Social (2012) and the HERA Conference (2013). The R3M1XW0RX site hosts more than 500 remixes of digital art, animation, sound, music, poetry and writing. See:",
+    "moreUrl": "http://www.runran.net/remixworx/",
+    "linkText": "R3M1XW0RX - selected works"
   },
   {
     "id": "rememori",
@@ -49,8 +52,9 @@
     "tech": "Flash",
     "collab": "",
     "publisher": "The New River Journal, Spring 2012",
-    "kudos": "",
-    "moreinfo": ""
+    "moreinfo": "Rememori has been exhibited at The New Works Festival, TheatreWorks, Silicon Valley, and at the 'Avenues of Access' exhibit of electronic literature a the Modern Language Association 2013 Convention. It is also published in:",
+    "moreUrl": "http://www.cddc.vt.edu/journals/newriver/12Spring/index.html",
+    "linkText": "The New River Journal, Spring 2012"
   },
   {
     "id": "out-of-touch",
@@ -62,21 +66,23 @@
     "tech": "Flash",
     "collab": "",
     "publisher": "SFMOMA's Open Space; Mad Hatters' Review",
-    "kudos": "Out of Touch was commissioned by the San Francisco Museum of Modern Art for the Third Hand Plays series published at SFMOMA's Open Space in August 2011. I've also given live performances of variations of the OOT theme at (which??) conferences.",
-    "moreinfo": "I/O Out Of Touch for live performance is an (ongoing?) development, exploring the paradoxical and often poignant nature of human relationships amid networked life."
+    "moreinfo": "Out of Touch was commissioned by the San Francisco Museum of Modern Art for the Third Hand Plays series published at SFMOMA's Open Space in August 2011. It was also published in the Mad Hatters' Review Issue 13. I went on to develop further variations of the work: I/O Out Of Touch for live performance. Read SFMOMA curator, Brian Stefans' SFMOMA statement:",
+    "moreUrl": "http://openspace.sfmoma.org/2011/07/third-hand-plays-out-of-touch-by-christine-wilks/",
+    "linkText": "Third Hand Plays: “Out of Touch” by Christine Wilks"
   },
   {
     "id": "underbelly",
     "workUrl": "http://crissxross.net/elit/underbelly.html",
     "title": "Underbelly",
-    "description": "A playable media fiction about a woman sculptor, carving on the site of a former colliery in the north of England. As she carves, she is disturbed by a medley of voices, some from the site's dark industrial past, and the player/reader is plunged into an underworld of repressed fears and desires.",
+    "description": "An award-winning playable media fiction about a woman sculptor, carving on the site of a former colliery in the north of England. As she carves, she is disturbed by a medley of voices, some from the site's dark industrial past, and the player/reader is plunged into an underworld of repressed fears and desires.",
     "imageUrl": "images/Underbelly150x150.png",
     "pubdate": "2010",
     "tech": "Flash",
     "collab": "",
     "publisher": "Published in the ELMCIP Anthology of European Electronic Literature, Nov 2012; Studies in the Maternal, Volume 3, Issue 2, 2011; Hyperrhiz.08, Issue 8, Spring 2011.",
-    "kudos": "Winner of the New Media Writing Prize 2010. Winner of the MaMSIE Digital Media Competition 2010/11.",
-    "moreinfo": ""
+    "moreinfo": "Winner of the New Media Writing Prize 2010 and winner of the MaMSIE Digital Media Competition 2010/11. Underbelly has featured in a number of international exhibitions and has been published in Hyperrhiz.08, Issue 8, Spring 2011; Studies in the Maternal, Volume 3, Issue 2, 2011; and also:",
+    "moreUrl": "http://anthology.elmcip.net/index.html",
+    "linkText": "The ELMCIP Anthology of European Electronic Literature"
   },
   {
     "id": "fitting-the-pattern",
@@ -88,8 +94,9 @@
     "tech": "Flash",
     "collab": "",
     "publisher": "Published in the Electronic Literature Collection, Volume 2, Feb 2011",
-    "kudos": "",
-    "moreinfo": ""
+    "moreinfo": "Fitting the Pattern and my parallel lecture about the work, 'Being Creatively Autobiographical in New Media,' published in Studies in the Maternal, Issue Two; and also in:",
+    "moreUrl": "http://collection.eliterature.org/2/works/wilks_fittingthepattern.html",
+    "linkText": "The Electronic Literature Collection, Volume Two"
   },
   {
     "id": "tailspin",
@@ -101,7 +108,8 @@
     "tech": "Flash",
     "collab": "",
     "publisher": "Published in the Electronic Literature Collection, Volume 2, Feb 2011",
-    "kudos": "",
-    "moreinfo": ""
+    "moreinfo": "Tailspin is published in:",
+    "moreUrl": "http://collection.eliterature.org/2/works/wilks_tailspin.html",
+    "linkText": "The Electronic Literature Collection, Volume Two"
   }
 ]
