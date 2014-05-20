@@ -1,3 +1,4 @@
+$font-family-sans-serif: "cora", "Helvetica Neue", Helvetica, Arial, sans-serif;
 //$brand-primary: #d10000;
 $brand-primary: hsl(0, 100%, 41%);
 $gold: hsl(46, 100%, 60%);
@@ -66,6 +67,7 @@ footer a:hover { color: darken($gold, 15%); }
 
 .jumbotron {
     text-align: center;
+    h1 { font-weight: 700; }
     // text-shadow: #f88 1px 1px 1px, #C00 -1px -1px 2px;
 
     // h1 { text-shadow: #f88 1px 1px 1px, #C00 -1px -1px 2px; }
