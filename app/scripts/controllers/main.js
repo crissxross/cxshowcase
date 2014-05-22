@@ -11,7 +11,7 @@ angular.module('cxshowcaseApp')
       {
         title: 'I/O Out of Touch',
         workUrl: 'http://crissxross.net/oot/indexoot.html',
-        description: 'for live digital text performance',
+        description: 'variations for live digital text performance',
         imageUrl: '',
         pubdate: '2012',
         tech: 'Flash',
@@ -29,7 +29,7 @@ angular.module('cxshowcaseApp')
       {
         title: 'IntraVenus',
         workUrl: 'http://crissxross.net/MovingPix/IntraVenus.html',
-        description: 'musing on the artist\'s muse',
+        description: 'dark musings on the artist\'s muse',
         imageUrl: '',
         pubdate: '2005',
         tech: 'Flash',
