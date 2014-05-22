@@ -111,5 +111,21 @@
     "moreinfo": "Tailspin is published in:",
     "moreUrl": "http://collection.eliterature.org/2/works/wilks_tailspin.html",
     "linkText": "The Electronic Literature Collection, Volume Two"
+  },
+  {
+
+    "id": "remixworx",
+    "workUrl": "http://www.runran.net/remixworx/",
+    "title": "R3M1XW0RX - selected works",
+    "description": "Remixworx is a space for the remixing of digital media, including visual poetry, e-poetry, playable media, animation, music, spoken word, texts and more. Initiated by Randy Adams as a blog in November 2006, it has grown to number well over 500 individual works of media. I've contributed approximately 100.",
+    "imageUrl": "images/devilsrope.jpg",
+    "pubdate": "2006 ongoing",
+    "tech": "HTML, Flash, images, sound, video",
+    "collab": "Made by R3M1XW0RX remixers",
+    "publisher": "R3M1XW0RX",
+    "kudos": "",
+    "moreinfo": "R3M1XW0RX is a tribute to the creativity, generosity and sparkling spirit of Randy Adams, aka runran, who died on 25 April 2014.",
+    "moreUrl": "http://www.runran.net/remix_runran/",
+    "linkText": "remixworx blog (where the remixing happens)"
   }
 ]
