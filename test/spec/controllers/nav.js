@@ -16,7 +16,7 @@ describe('Controller: NavCtrl', function () {
     });
   }));
 
-  it('should attach a list of awesomeThings to the scope', function () {
-    expect(scope.awesomeThings.length).toBe(3);
+  it('should match current location to menu', function () {
+    expect(scope.menuClass.current).toBe('active');
   });
 });
