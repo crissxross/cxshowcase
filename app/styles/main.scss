@@ -48,12 +48,7 @@ body {
 
 .page-header {
     color: $darkest;
-    // color: lighten($gold, 15%);
-    // border-bottom: 1px solid $brand-primary;
     border-bottom: none;
-
-    // small { color: darken($gold, 20%); }
-    // small { color: $oldgold; }
 }
 
 /* Custom page footer */
@@ -61,7 +56,6 @@ footer {
     height: 50px;
     padding-top: 30px;
     color: #ccc;
-    // background-color: hsla(0, 0%, 0%, 0.3);
 }
 
 footer a { color: $gold; }
@@ -70,14 +64,21 @@ footer a:hover { color: darken($gold, 15%); }
 .jumbotron {
     text-align: center;
     h1 { font-weight: 700; }
-    // text-shadow: #f88 1px 1px 1px, #C00 -1px -1px 2px;
-
-    // h1 { text-shadow: #f88 1px 1px 1px, #C00 -1px -1px 2px; }
-    // border: 3px, solid, $brand-primary;
-    // box-shadow: inset 0 0 2em #450000;
 }
 
+
 .media-object { max-width: 150px; }
+.media-object-pull-l { padding-bottom: 10px; }
+
+
+/* Responsive: small devices special breakpoint */
+@media screen and (min-width: 400px) {
+    .media-object-pull-l {
+        float: left !important;
+        padding-right: 15px;
+    }
+}
+
 
 
 /* Responsive: Portrait tablets and up */
